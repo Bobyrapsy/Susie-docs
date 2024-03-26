@@ -18,52 +18,53 @@
 
 
     <div class="nav-container">
-        <nav class="text-right flex justify-between md:justify-around p-3">
-            <div class="flex items-center">
+        <nav class="text-right block md:flex justify-around p-3">
+            <div class="flex items-center justify-between">
                 <h1 class="font-bold p-4  text-2xl ">
                     <a href="/" class="text-black">ecosyn</a>
                 </h1>
-                <div class="px-4 cursor-pointer md:hidden" id="burger">
+
+                <div class="px-4 py-4 cursor-pointer md:hidden" id="burger">
                     <svg class="w-10 ml-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>                          
                 </div>
             </div>
 
-            <ul class="text-sm mt-6 hidden display-block md:flex  text-black" id="menu">
+            <ul class="text-sm mt-3 hidden display-block md:flex  text-black" id="menu">
                 <li class="py-1 font-medium">
-                    <a href="#" class="px-4 flex justify-end">
+                    <a href="#" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
                         <span>About Us</span>
                     </a>
                 </li>
 
                 <li class="py-1 font-medium">
-                    <a href="#" class="px-4 flex justify-end">
+                    <a href="#" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
                         <span>Solutions</span>
                     </a>
                 </li>
 
                 <li class="py-1 font-medium">
-                    <a href="#" class="px-4 flex justify-end">
+                    <a href="#" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
                         <span>News and Stories</span>                             
                     </a>
                 </li>
 
                 <li class="py-1 font-medium">
-                    <a href="#" class="px-4 flex justify-end">
+                    <a href="#" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
                         <span>Rescources</span>                             
                     </a>
                 </li>
             </ul>
 
-            <div class="mt-6 md:mt-6" id="menu">
+            <div class="mt-10 md:mt-5 hidden text-center md:flex" id="time">
                 <a href="#" class="btn text-white bg-black">Get Started</a>
             </div>
         </nav>
     </div><!-- end nav -->
 
 
-    <section class="first py-20 block md:flex justify-between bg-lime-400 ">
+    <section class="first py-20 block lg:flex justify-between bg-lime-400 ">
 
         <div class="box-1 display-block p-2 pb-6  md:p-24 md:ml-32">
             <h1 class="text-2xl font-extrabold">Empowering sustainable
@@ -96,9 +97,9 @@
 
             <h1 class="h1 text-2xl font-extrabold text-black">The Solution We Offer</h1>
 
-            <div class="mt-10 grid lg:grid-cols-3 gap-20">
+            <div class="mt-10 grid lg:grid-cols-3 gap-20 pb-40 sp-one">
                 <!-- cards go here -->
-                <div class="block text-center w-80 height sp-one">
+                <div class="block text-center w-80 height">
                     <div class="block w-80 rounded-2xl overflow-hidden">
                         <img src="imgs/climate-change.png" alt="stewed-beef-with-jollof-rice" class="w-80 height-2 object-cover">
                     </div>
@@ -107,7 +108,7 @@
                     </div>
                 </div>
         
-                <div class="block text-center w-80 height sp-one">
+                <div class="block text-center w-80 height">
                     <div class="block w-80 rounded-2xl overflow-hidden">
                         <img src="imgs/biodiversity.png" alt="stewed-beef-with-jollof-rice" class="w-80 height-2 object-cover">
                     </div>
@@ -116,7 +117,7 @@
                     </div>
                 </div>
     
-                <div class="block text-center w-80 height sp-one">
+                <div class="block text-center w-80 height">
                     <div class="block w-80 rounded-2xl overflow-hidden">
                         <img src="imgs/social-and-economy.png" alt="stewed-beef-with-jollof-rice" class="w-80 height-2 object-cover">
                     </div>
@@ -132,13 +133,13 @@
         <div class="flex w-full bg-cover bg-center md:py-16 md:px-28" style="background-image: url('imgs/climate-justice.png');">
 
             <svg xmlns="http://www.w3.org/2000/svg" id="backBtn" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
-            class="w-18 h-12 md:h-16 border-white mt-52 text-white  border-2 rounded-full py-1 px-1">
+            class="w-18 h-12 md:h-16 lg:border-white mt-52 text-white  lg:border-2 rounded-full py-1 px-1">
                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
             </svg>    
 
             <div class="slide-div width-2 my-8">                                       
 
-                <div class="display-block p-2 pb-6 text-left md:p-24 md:ml- text-lime-400">
+                <div class="display-block p-5 md:p-5 pb-6 text-left lg:p-24 md:ml- text-lime-400">
                     <h1 class="text-xl md:text-4xl font-extrabold">
                         Big Step For Climate Change
                     </h1>
@@ -151,7 +152,7 @@
         
                     <div class="mt-5">
                         <a href="#" class="btn bg-green-950">Learn More</a>
-                       </div>
+                    </div>
                 </div>
 
                 <div class="display-block p-2 pb-6 text-left md:p-24 md:ml- text-lime-400">
@@ -221,7 +222,7 @@
             </div>
 
             <svg xmlns="http://www.w3.org/2000/svg" id="nextBtn" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
-            class="w-18 h-12 md:h-16 border-white mt-52 text-white md:ml-64 border-2 rounded-full py-1 px-1">                                                     
+            class="w-18 h-12 md:h-16 lg:border-white mt-52 text-white md:ml-28 lg:ml-64 lg:border-2 rounded-full py-1 px-1">                                                     
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
               
@@ -231,7 +232,7 @@
     
 
 
-    <section class="third px-28 mb-80 mt-96 md:mt-1">
+    <section class="third px-28 mb-80 mt-72 md:mt-96 lg:mt-1">
 
         <h4 class="font-medium mt-12 pb-8 text-3xl text-black">News and Stories</h4>
 
@@ -239,7 +240,7 @@
             <!-- cards go here -->
             <div class="card">
                 <img src="imgs/forest.jpg" alt="forest" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -251,7 +252,7 @@
             </div>
             <div class="card">
                 <img src="imgs/moutain-plains.jpg" alt="mountain-plains" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -264,7 +265,7 @@
 
             <div class="card">
                 <img src="imgs/waterfall-forest.jpg" alt="waterfall-forest" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -280,14 +281,14 @@
 
 
 
-    <section class="fourth grid md:flex md:w-full  md:mb-52">
+    <section class="fourth grid md:flex md:w-full  md:mb-52 bg-white">
 
         <div class=" md:w-1/2 bg-cover bg-center p-32" style="background-image: url('imgs/sand-hand.jpg');"></div>
 
         <div class="md:w-1/2 bg-slate-100 block p-1 md:p-32">
             <h1 class="text-3xl md:text-5xl font-bold text-black">Get to know more about us</h1>
             <div class="mt-6 md:w-96 mx-1 mb-9">
-                <p class="text-black">Lorem ipsum dolor sit amet consectetur 
+                <p class="text-black w-52">Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit. In repudiandae sapiente sequi quisquam tempori
                 </p>
             </div>
@@ -308,7 +309,7 @@
             <!-- cards go here -->
             <div class="card">
                 <img src="imgs/hijab-eye.jpg" alt="forest" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -320,7 +321,7 @@
             </div>
             <div class="card">
                 <img src="imgs/pawpaw&hand.jpg" alt="mountain-plains" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -333,7 +334,7 @@
 
             <div class="card">
                 <img src="imgs/very-fine-forest-place.jpg" alt="waterfall-forest" class="w-full h-32 md:h-56">
-                <div class="mt-6 w-96 mx-1">
+                <div class="mt-6 w-96 mx-1 md:text-center md:w-full lg:text-left lg:w-96">
                     <span class="font-bold">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In repudiandae sapiente sequi quisquam tempori 
                         tempora asperiores autem, numquam amet necessitatibus non 
@@ -376,13 +377,13 @@
 
 
 
-    <footer class="bg-green-950 block md:flex justify-between p-32 text-lime-400 mb-16">
+    <footer class="bg-green-950 block md:flex justify-between p-32 text-lime-400 mb-12">
 
         <div class="1st block">
 
             <h1 class="font-normal mt-12 pb-8 text-3xl">ecosyn</h1>
 
-            <p class="w-40 md:w-96">Lorem, ipsum dolor sit amet consectetur 
+            <p class="w-40 md:w-52">Lorem, ipsum dolor sit amet consectetur 
             adipisicing elit. Hic excepturi, eveniet 
             commodi rerum accusamus expedita? Lorem 
             ipsum dolor sit amet consectetur adipisicing 
