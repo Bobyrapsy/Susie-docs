@@ -1,5 +1,6 @@
 const burger = document.querySelector('#burger');
 const menu = document.querySelector('#menu');
+const time = document.querySelector('#time');
 const navbar = document.querySelector('.nav-container');
 const secondSection = document.querySelector('.second');
 
@@ -8,6 +9,14 @@ burger.addEventListener('click', () => {
         menu.classList.remove('hidden');
     } else {
         menu.classList.add('hidden');
+    }
+});
+
+burger.addEventListener('click', () => {
+    if (time.classList.contains('hidden')){
+        time.classList.remove('hidden');
+    } else {
+        time.classList.add('hidden');
     }
 });
 
@@ -56,6 +65,6 @@ ScrollReveal({
  ScrollReveal().reveal('.first .box-1', {delay:500, origin: 'left'});
  ScrollReveal().reveal('.first .box-2', {delay:700, origin: 'bottom'});
  ScrollReveal().reveal('.second .h1', {delay:200, origin: 'left'});
- ScrollReveal().reveal('.second .sp-one', {delay:200, origin: 'bottom', interval:200 });
+ ScrollReveal().reveal('.second .sp-one', {delay:200, origin: 'bottom'});
 
 
